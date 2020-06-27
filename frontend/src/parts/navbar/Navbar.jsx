@@ -28,8 +28,8 @@ export default function Navbar() {
                                         LACAK PESANAN
                                     </Button>
                             </li>
-                            <li className={`nav-item`}>
-                                    <Button className="nav-link" type="link">
+                            <li className={`nav-item${getNavLinkClass("/login-penjual")}`}>
+                                    <Button className="nav-link" type="link" href="login-penjual">
                                         LOGIN
                                     </Button>
                             </li>
