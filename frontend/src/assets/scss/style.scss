@@ -42,3 +42,95 @@
 @import "spinners";
 @import "utilities";
 @import "print";
+
+body{
+    background-color: #ddd;
+}
+header{
+    .navbar{
+        height: 25px;
+        background: #F7F7F7;
+
+
+    
+        ul.navbar-nav{
+            li.nav-item{
+                &.active{
+                    a.nav-link{
+                        color: #000000;
+                    }
+                }
+                a{
+                    &.nav-link{
+                        padding-left: 1rem;
+                        padding-right: 1rem;
+                        font-size: 14px;
+                    }
+                    &.nav-link.lebih-murah{
+                        color: #000000;
+
+                        &:hover{
+                            color: #DA2919;
+                        }
+                    }
+                    &.nav-link.seller{
+                        color: #000000;
+
+                        &:hover{
+                            color: #DA2919;
+                        }
+                    }
+                    &:hover{
+                        color: #DA2919;
+                    }
+                }
+            }
+        }
+    }
+
+    .search-bar{
+        background: #fff;
+    
+    .search{
+        width: 900px;
+        position: relative;
+        display: flex;
+        margin-top: -79px;
+        margin-right: -50px;
+        
+        .searchBar{
+            width: 100%;
+            background: #EFF0F5;
+            border-right: none;
+            padding: 25px;
+            height: 20px;
+            border: none;
+            color: #F37323;
+
+            .searchBar:focus{
+                color: #F37323;
+            }
+        }
+
+        .search-button{
+            width: 50px;
+            height: 50px;
+            border: 1px solid #F37323;
+            background: #F37323;
+            text-align: center;
+            color: #fff;   
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+    }
+
+    .wrap{
+        width: 30%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+}
