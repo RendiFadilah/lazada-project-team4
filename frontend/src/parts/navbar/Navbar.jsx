@@ -1,7 +1,12 @@
 import React from 'react'
 import Button from "../../elements/Button"
 
-export default function Navbar() {
+export default function Navbar(props) {
+
+    const getNavLinkClass = path => {
+        return props.location.pathname === path ? " active" : "";
+    }
+
     return (
        <header className="spacing-sm">
            
@@ -28,8 +33,8 @@ export default function Navbar() {
                                         LACAK PESANAN
                                     </Button>
                             </li>
-                            <li className={`nav-item${getNavLinkClass("/login-penjual")}`}>
-                                    <Button className="nav-link" type="link" href="login-penjual">
+                            <li className={`nav-item${getNavLinkClass("/login")}`}>
+                                    <Button className="nav-link" type="link" href="login">
                                         LOGIN
                                     </Button>
                             </li>
