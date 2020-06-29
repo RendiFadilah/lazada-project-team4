@@ -5,30 +5,24 @@ import LazadaCredit from "../../assets/images/lazada-credit.png";
 
 export default function Navbar() {
     return (
-        <header className="spacing-sm">
-           <div className="container-fluid search-bar">
-            <div className="row">
-               <div className="container">
-                    <div className="col-auto">
-                        <img src={LogoLazada} style={{width: 200}} alt=""/>
-                    </div>
-                    </div>
-                    <div className="col-10">
-                        <div className="wrap">
-                            <div className="search">
-                                <input type="text" className="searchBar" placeholder="Cari di Lazada" />
-                                <button type="submit" className="search-button">
-                                    <i className="fa fa-search"></i>
-                                </button>
-                                <img src={IconCart} style={{ width: 30, marginLeft: 30}} alt=""/>
-                                <img src={LazadaCredit} style={{ width: 150, marginLeft: 30}} alt=""/>
-                        </div>
-                    </div>
-                    
+        <header className="spacing-sm header-nav-logo">
+            <img className="logo" alt="Logo" src={LogoLazada} style={{ width: 200}} />
+
+            <div class="wrapper">
+            <div className="wrap">
+                <div className="search">
+                    <input type="text" class="search-bar" placeholder="Cari di Lazada" />
+                    <button type="submit" class="search-button">
+                        <i className="fa fa-search text-white font-weight-light"></i>
+                    </button>
                 </div>
-            </div>      
             </div>
-            </header>
+            </div>
+
+            <img src={IconCart} alt="IconCart" className="icon-cart"style={{width: 30}} />
+            <img src={LazadaCredit} alt="Lazada Credit" className="icon-cart"style={{width: 200, height: 55}} />
+
+        </header>
     
     )
 }

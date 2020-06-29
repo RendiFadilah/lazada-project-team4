@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import "./assets/scss/style.scss";
 import "./assets/scss/style-search.scss";
 import LandingPage from "./pages/LandingPage"
+
 import LoginPenjual from './pages/auth/login/LoginPenjual';
 
 function App() {
