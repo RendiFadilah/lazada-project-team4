@@ -7,7 +7,7 @@ export default function KoleksiTerbaik() {
     return (
         <section className="container">
             <div className="content-text d-flex align-items-center">
-                <h4 className="mb-3 mt-4">Koleksi Terbaik</h4>
+                <h4 className="mb-3 mt-4 text-title">Koleksi Terbaik</h4>
                 <h5 className="mb-3 mt-4 ml-auto">Lanjutkan Belanja</h5>
             </div>
             <div className="row">
