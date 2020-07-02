@@ -1,23 +1,45 @@
 {
+  "lazadaFeatured": [
+    {
+      "imageUrl": "/images/lazada-mall.png",
+      "name": "LazMall"
+    },
+    
+    {
+      "imageUrl": "/images/lazada-pulsa.png",
+      "name": "Pulsa & eVouchers"
+    },
+    
+    {
+      "imageUrl": "/images/lazada-global.png",
+      "name": "Lazada Global"
+    },
+    
+    {
+      "imageUrl": "/images/lazada-voucher.png",
+      "name": "Voucher Belanja" 
+    }
+    
+  ],
     "flashSale": [
       {
         "_id": "asd1293uasdads1",
-        "name": "Loreal Paris",
+        "name": "!Baju Gamis Monalisa Evelyn -Gamis Syari-Gamis Busui-Gamis Panjang terlaris gamis wanita",
         "imageUrl": "/images/img-flashsale1.webp",
         "price": "Rp 119.250",
         "discount": "25%",
         "sale": "Rp 159.000"
       },
       {
-        "_id": "asd1293uasdads1",
+        "_id": "asd1293uasdads2",
         "name": "Takashi Mura",
-        "imageUrl": "/images/img-flashsale2.web",
+        "imageUrl": "/images/img-flashsale2.webp",
         "price": "Rp 119.250",
         "discount": "25%",
         "sale": "Rp 159.000"
       },
       {
-        "_id": "asd1293uasdads1",
+        "_id": "asd1293uasdads3",
         "name": "Loreal Paris",
         "imageUrl": "/images/img-flashsale3.jpg",
         "price": "Rp 119.250",
@@ -25,7 +47,7 @@
         "sale": "Rp 159.000"
       },
       {
-        "_id": "asd1293uasdads1",
+        "_id": "asd1293uasdads4",
         "name": "Loreal Paris",
         "imageUrl": "/images/img-flashsale4.jpg",
         "price": "Rp 119.250",
@@ -33,7 +55,7 @@
         "sale": "Rp 159.000"
       },
       {
-        "_id": "asd1293uasdads1",
+        "_id": "asd1293uasdads5",
         "name": "Loreal Paris",
         "imageUrl": "/images/img-flashsale5.webp",
         "price": "Rp 119.250",
@@ -41,7 +63,7 @@
         "sale": "Rp 159.000"
       },
       {
-        "_id": "asd1293uasdads1",
+        "_id": "asd1293uasdads6",
         "name": "Loreal Paris",
         "imageUrl": "/images/img-flashsale6.webp",
         "price": "Rp 119.250",
@@ -49,129 +71,71 @@
         "sale": "Rp 159.000"
       }
     ],
-    "categories": [
+
+    "koleksiTerbaik" : [
       {
-        "_id": "asd1293uasdads1",
-        "name": "House with beauty backyard",
-        "items": [
-          {
-            "_id": "asd1293uasdads1",
-            "name": "PSW Antasari",
-            "imageUrl": "/images/image-category-1.jpg",
-            "country": "South Korea",
-            "city": "Seoul Flore",
-            "isPopular": true
-          },
-          {
-            "_id": "asd1293uasdads1",
-            "name": "Kuretakeso",
-            "imageUrl": "/images/image-category-2.jpg",
-            "country": "South Korea",
-            "city": "Seoul Flore",
-            "isPopular": false
-          },
-          {
-            "_id": "asd1293uasdads1",
-            "name": "Arya Duta",
-            "imageUrl": "/images/image-category-3.jpg",
-            "country": "South Korea",
-            "city": "Seoul Flore",
-            "isPopular": false
-          },
-          {
-            "_id": "asd1293uasdads1",
-            "name": "Grand Dhika",
-            "imageUrl": "/images/image-category-4.jpg",
-            "country": "South Korea",
-            "city": "Seoul Flore",
-            "isPopular": false
-          }
-        ]
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
       },
       {
-        "_id": "asd1293uasdads1",
-        "name": "Hotels with large living room",
-        "items": [
-          {
-            "_id": "asd1293uasdads1",
-            "name": "PSW Antasari",
-            "imageUrl": "/images/image-category-5.jpg",
-            "country": "South Korea",
-            "city": "Seoul Flore",
-            "isPopular": false
-          },
-          {
-            "_id": "asd1293uasdads1",
-            "name": "Kuretakeso",
-            "imageUrl": "/images/image-category-6.jpg",
-            "country": "South Korea",
-            "city": "Seoul Flore",
-            "isPopular": false
-          },
-          {
-            "_id": "asd1293uasdads1",
-            "name": "Arya Duta",
-            "imageUrl": "/images/image-category-7.jpg",
-            "country": "South Korea",
-            "city": "Seoul Flore",
-            "isPopular": false
-          },
-          {
-            "_id": "asd1293uasdads1",
-            "name": "Grand Dhika",
-            "imageUrl": "/images/image-category-8.jpg",
-            "country": "South Korea",
-            "city": "Seoul Flore",
-            "isPopular": true
-          }
-        ]
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
       },
       {
-        "_id": "asd1293uasdads1",
-        "name": "Apartments with kitchen set",
-        "items": [
-          {
-            "_id": "asd1293uasdads1",
-            "name": "PSW Antasari",
-            "imageUrl": "/images/image-category-9.jpg",
-            "country": "South Korea",
-            "city": "Seoul Flore",
-            "isPopular": false
-          },
-          {
-            "_id": "asd1293uasdads1",
-            "name": "Kuretakeso",
-            "imageUrl": "/images/image-category-10.jpg",
-            "country": "South Korea",
-            "city": "Seoul Flore",
-            "isPopular": false
-          },
-          {
-            "_id": "asd1293uasdads1",
-            "name": "Arya Duta",
-            "imageUrl": "/images/image-category-11.jpg",
-            "country": "South Korea",
-            "city": "Seoul Flore",
-            "isPopular": true
-          },
-          {
-            "_id": "asd1293uasdads1",
-            "name": "Grand Dhika",
-            "imageUrl": "/images/image-category-12.jpg",
-            "country": "South Korea",
-            "city": "Seoul Flore",
-            "isPopular": false
-          }
-        ]
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
       }
-    ],
-    "testimonial": {
-      "_id": "asd1293uasdads1",
-      "imageUrl": "/images/testimonial-landingpages.jpg",
-      "name": "Happy Family",
-      "rate": 4.55,
-      "content": "What a great trip with my family and I should try again next time soon ...",
-      "familyName": "Angga",
-      "familyOccupation": "Product Designer"
-    }
+    ]
   }

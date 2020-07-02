@@ -9,32 +9,32 @@ export default function Navbar() {
                    <div className="collapse navbar-collapse">
                        <ul className="navbar-nav ml-auto">
                             <li className={`nav-item`}>
-                                <Button className="nav-link lebih-murah" type="link">
+                                <Button className="nav-link lebih-murah" type="link" href="">
                                  LEBIH MURAH DI APP
                                 </Button>
                             </li>
                             <li className={`nav-item`}>
-                                    <Button className="nav-link seller" type="link">
+                                    <Button className="nav-link seller" type="link" href="">
                                         MENJADI SELLER
                                     </Button>
                             </li>
                             <li className={`nav-item`}>
-                                    <Button className="nav-link" type="link">
+                                    <Button className="nav-link" type="link" href="">
                                         CUSTOMER CARE
                                     </Button>
                             </li>
                             <li className={`nav-item`}>
-                                    <Button className="nav-link" type="link">
+                                    <Button className="nav-link" type="link" href="">
                                         LACAK PESANAN
                                     </Button>
                             </li>
                             <li className={`nav-item$`}>
-                                    <Button className="nav-link" type="link">
+                                    <Button className="nav-link" type="link" href="">
                                         LOGIN
                                     </Button>
                             </li>
                             <li className={`nav-item`}>
-                                    <Button className="nav-link" type="link">
+                                    <Button className="nav-link" type="link" href="">
                                         DAFTAR
                                     </Button>
                             </li>
