@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Timer from "react-compound-timer";
 import { Link } from "react-router-dom";
+import Axios from "axios";
 
 export default function FlashSale({ data, props }) {
+
   return (
    
     <section className="container mt-4">
