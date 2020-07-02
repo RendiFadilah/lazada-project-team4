@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -134,8 +134,7 @@ header{
 
 .side-menu{
     height: 400px;
-
-    width: 100%;
+    width: 180px;
     font-size: 14px;
     font-weight: lighter;
     background-color: #ffffff;
@@ -161,9 +160,8 @@ header{
 }
 
 .side-menu ul li:hover ul {
-    display: block;
-    
-    margin-left: 17%;
+    display: block;  
+    margin-left: 12.1%;
     margin-top: 4.2%;;
     padding: 0 100px 10px 10px;
     position: fixed;
@@ -173,155 +171,99 @@ header{
 }
 
 
+.card-item-title{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
-.slide-container{
-    max-width: 982px;
-    position: relative;
-    margin: auto;
+}
+    .card-title{
+        font-size: 14px;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
 
-    .mySlides{
-        display: block;
+    .card-text.price{
+        font-size: 18px;
+        color: #F37323;
+        font-family: 'Poppins', sans-serif;
+        font-weight: lighter;
+        line-height: 20px;
+    }
+    
+    .text-disabled{
+        font-size: 12px;
+        text-decoration: line-through;
+        font-weight: lighter;
+        color: gray;
+    }
+
+    .text-dicsount{
+        font-size: 12px;
+        color: gray;
+    }
+
+    .sale-now.flash-title{
+        font-size: 14px;
     }
 
    
-
-    .dot {
-        cursor: pointer;
-        height: 10px;
-        width: 10px;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.6s ease;
-      }
-
-      .active, .dot:hover {
-        background-color: #717171;
-      }
-
-      .fade {
-        -webkit-animation-name: fade;
-        -webkit-animation-duration: 1.5s;
-        animation-name: fade;
-        animation-duration: 1.5s;
-      }
-      
-      @-webkit-keyframes fade {
-        from {opacity: .4}
-        to {opacity: 1}
-      }
-      
-      @keyframes fade {
-        from {opacity: .4}
-        to {opacity: 1}
-      }
-}
-
-.card{
-    height: 100%;
-    .img-wrapper{
-        height: 100%;
-        margin-bottom: 0;
-        border-radius: 0.9375rem;
-        overflow: hidden;
+    .sale-now{
+        color: #F37323;
     }
 
-    .meta-wrapper{
-        margin-top: 1rem;
-        h5{
-            font-size: 1.125rem;
-            margin-bottom: 2px;
-        }
-
-        span{
-            font-size: .875rem;
-        }
+    .buy-now{
+        text-decoration: none;
+        width: 200px;
+        border: 1px solid #F37323;
+        padding: 5px;
+        text-align: center;
+        align-items: center;
+        font-weight: 200;
+        color: #F37323;
+        float: right;
     }
 
-    &.card-featured{
-        overflow: hidden;
-        cursor: pointer;
-        height: 100%;
-        border-radius: 15px;
-        &:after {
-            position: absolute;
-            content: ""; top:0; left:0; right:0; bottom:0; transform: scale(1.1);
-            transition:5s transform ease-in-out;
-            z-index: 2;
-            @include gradient-y(rgba($black, 0), rgba($black, .51), 0%, 100%)
-        }
-
-        .img-wrapper{
-            z-index: 1;
-            margin: 0;
-            position: absolute;
-            top:0; left:0; right:0; bottom:0; transform: scale(1.1);
-            transition: .25s transform ease-in-out;
-           
-        }
-
-        .meta-wrapper{
-            z-index: 4;
-            color: $white;
-            padding: 20px;
-            position: absolute;
-            top: 0; bottom: 0;
-            width: 100%; transform: translateY(0);
-            transition: .3s transform ease-in-out;
-            display: flex;
-            justify-content: flex-end;
-            flex-direction: column;
-
-        }
+  
+    .item-timer{
+        background-color: #DA2919;
+        color: #ffffff;
+        font-size: 16px;
+        font-family: "Poppins" sans-serif;
+        margin: 8px;
+        border-radius: 4px;
+        margin-left: 2px;
+        align-self: center;
+        padding: 10px;
     }
-}
+
+    .name-product{
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .product{
+        font-size: 14px;
+        font-weight: 250;
+        line-height: 30px;
+    }
 
 
-.wrapper{
-    background-image: url('../images/bg.png');
-    height:  720px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-
-
-    .navbar-background{
+    .text-title{
+        font-size: 18px;
+    }
+    .wrapper-koleksi {
         width: 100%;
-        height: 80px;
-        background: #AAB3B2;
-        opacity: 0.5;
+        display: flex;
+        background: #ffffff;
+        border: 1px solid #ddd;
     }
-
-    .wrapper-login{
-        width: 450px;
-        height: 500px;
-        border: 1px solid #AAB3B2;
-        background: #D7D6D0;
-        opacity: 0.8;
-
-        .login-w-email{
-            background: #D7D6D0;
-            padding: 20px;
-
-            a{
-                color: #F37323;
-                text-decoration: none;
-            }
-        }
-        
-
-        .login-w-ponsel{
-            border: 0px solid #AAB3B2;
-            background: #D7D6D0;
-            padding: 20px;
-            opacity: 1.5;
-
-            a{
-                color: #F37323;
-                text-decoration: none;
-            }
-        }
-
+    .content-koleksi{
+        width: 260px;
+        border: 1px solid #ddd;
+        margin: 5px;
+        border-left: none;
+        border-bottom: none;
+        border-top: none;
     }
-}

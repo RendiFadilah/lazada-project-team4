@@ -1,23 +1,45 @@
 {
+  "lazadaFeatured": [
+    {
+      "imageUrl": "/images/lazada-mall.png",
+      "name": "LazMall"
+    },
+    
+    {
+      "imageUrl": "/images/lazada-pulsa.png",
+      "name": "Pulsa & eVouchers"
+    },
+    
+    {
+      "imageUrl": "/images/lazada-global.png",
+      "name": "Lazada Global"
+    },
+    
+    {
+      "imageUrl": "/images/lazada-voucher.png",
+      "name": "Voucher Belanja" 
+    }
+    
+  ],
     "flashSale": [
       {
         "_id": "asd1293uasdads1",
-        "name": "Loreal Paris",
+        "name": "!Baju Gamis Monalisa Evelyn -Gamis Syari-Gamis Busui-Gamis Panjang terlaris gamis wanita",
         "imageUrl": "/images/img-flashsale1.webp",
         "price": "Rp 119.250",
         "discount": "25%",
         "sale": "Rp 159.000"
       },
       {
-        "_id": "asd1293uasdads1",
+        "_id": "asd1293uasdads2",
         "name": "Takashi Mura",
-        "imageUrl": "/images/img-flashsale2.web",
+        "imageUrl": "/images/img-flashsale2.webp",
         "price": "Rp 119.250",
         "discount": "25%",
         "sale": "Rp 159.000"
       },
       {
-        "_id": "asd1293uasdads1",
+        "_id": "asd1293uasdads3",
         "name": "Loreal Paris",
         "imageUrl": "/images/img-flashsale3.jpg",
         "price": "Rp 119.250",
@@ -25,7 +47,7 @@
         "sale": "Rp 159.000"
       },
       {
-        "_id": "asd1293uasdads1",
+        "_id": "asd1293uasdads4",
         "name": "Loreal Paris",
         "imageUrl": "/images/img-flashsale4.jpg",
         "price": "Rp 119.250",
@@ -33,7 +55,7 @@
         "sale": "Rp 159.000"
       },
       {
-        "_id": "asd1293uasdads1",
+        "_id": "asd1293uasdads5",
         "name": "Loreal Paris",
         "imageUrl": "/images/img-flashsale5.webp",
         "price": "Rp 119.250",
@@ -41,7 +63,7 @@
         "sale": "Rp 159.000"
       },
       {
-        "_id": "asd1293uasdads1",
+        "_id": "asd1293uasdads6",
         "name": "Loreal Paris",
         "imageUrl": "/images/img-flashsale6.webp",
         "price": "Rp 119.250",
@@ -53,6 +75,7 @@
     "koleksiTerbaik" : [
       {
         "id": "assds123",
+<<<<<<< HEAD
         "name": "kuasMakeupFavorit",
         "stock": "165",
         "imageUrl1": "/images/img-kuas.webp",
@@ -134,3 +157,69 @@
           "type": "nama yg tulisannya light"
         }    ]
   }
+=======
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      }
+    ]
+  }
+>>>>>>> 85ad77441c4b55efc88b188af05d0cfafa0e255f

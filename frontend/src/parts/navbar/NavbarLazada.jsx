@@ -8,11 +8,11 @@ export default function Navbar() {
         <header className="spacing-sm header-nav-logo">
             <img className="logo" alt="Logo" src={LogoLazada} style={{ width: 200}} />
 
-            <div class="wrapper">
+            <div className="wrapper">
             <div className="wrap">
                 <div className="search">
-                    <input type="text" class="search-bar" placeholder="Cari di Lazada" />
-                    <button type="submit" class="search-button">
+                    <input type="text" className="search-bar" placeholder="Cari di Lazada" />
+                    <button type="submit" className="search-button">
                         <i className="fa fa-search text-white font-weight-light"></i>
                     </button>
                 </div>
