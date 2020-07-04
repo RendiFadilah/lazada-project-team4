@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 import React from 'react';
 import LoginPembeli from './pages/auth/login/LoginPembeli'
+=======
+>>>>>>> e64cecdb1a8fac8ad182acc445a9b238009ede6b
 
-import "../src/assets/scss/style.scss";
+import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
+import "./assets/scss/style.scss";
+import LandingPage from "./pages/LandingPage"
 
+import LoginPenjual from './pages/auth/login/LoginPenjual';
 function App() {
   return (
+<<<<<<< HEAD
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -30,6 +38,13 @@ function App() {
         </div>
       </nav>
       <LoginPembeli />
+=======
+    <div className="App">
+      <Router>
+        <Route exact path="/" component={LandingPage}></Route>
+        <Route path="/login" component={LoginPenjual}></Route>
+      </Router>
+>>>>>>> e64cecdb1a8fac8ad182acc445a9b238009ede6b
     </div>
   );
 }
