@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 @import "functions";
 @import "variables";
 @import "mixins";
@@ -14,6 +14,7 @@
 @import "images";
 @import "code";
 @import "grid";
+@import "container-grid";
 @import "tables";
 @import "forms";
 @import "buttons";
@@ -47,6 +48,7 @@ body{
     background-color: #ddd;
 }
 header{
+    
     .navbar{
         height: 25px;
         background: #F7F7F7;
@@ -88,49 +90,180 @@ header{
         }
     }
 
-    .search-bar{
-        background: #fff;
-    
-    .search{
-        width: 900px;
-        position: relative;
-        display: flex;
-        margin-top: -79px;
-        margin-right: -50px;
-        
-        .searchBar{
-            width: 100%;
-            background: #EFF0F5;
-            border-right: none;
-            padding: 25px;
-            height: 20px;
-            border: none;
-            color: #F37323;
+}
 
-            .searchBar:focus{
+.header-nav-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding: 5px 10%;
+    background: #ffffff;
+
+    .wrapper{
+        .wrap{
+
+            .search{
+                width: 600px;
+                display: flex;
+                
+            }
+
+            .search-bar{
+                width: 100%;
+                background: #EFF0F5;
+                border-right: none;
+                padding: 25px;
+                height: 20px;
+                border: none;
                 color: #F37323;
             }
+
+            .search-button{
+                width: 50px;
+                height: 50px;
+                border: 1px solid #F37323;
+                background: #F37323;
+                text-align: center;
+                cursor: pointer;
+                font-size: 20px;
+            }
         }
-
-        .search-button{
-            width: 50px;
-            height: 50px;
-            border: 1px solid #F37323;
-            background: #F37323;
-            text-align: center;
-            color: #fff;   
-            cursor: pointer;
-            font-size: 20px;
-        }
-
-    }
-
-    .wrap{
-        width: 30%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
     }
 }
+
+.side-menu{
+    height: 400px;
+    width: 180px;
+    font-size: 14px;
+    font-weight: lighter;
+    background-color: #ffffff;
+    box-shadow: rgb(219, 219, 219);
+    
+}
+
+.side-menu ul li{
+    list-style-type: none;
+    font-weight: lighter;
+    line-height: 35px;
+    margin-left: -25px;
+    cursor: pointer;
+}
+.side-menu ul li:hover{
+    color: #F37323;
+}
+
+.side-menu ul li ul {
+    display: none;
+    z-index: 10;
+    top: 77px;
+}
+
+.side-menu ul li:hover ul {
+    display: block;  
+    margin-left: 12.1%;
+    margin-top: 4.2%;;
+    padding: 0 100px 10px 10px;
+    position: fixed;
+    color: #000000;
+    background: #ffffff;
+    box-shadow: rgb(192, 192, 192);
+}
+
+
+.card-item-title{
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+    .card-title{
+        font-size: 14px;
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+
+    .card-text.price{
+        font-size: 18px;
+        color: #F37323;
+        font-family: 'Poppins', sans-serif;
+        font-weight: lighter;
+        line-height: 20px;
+    }
+    
+    .text-disabled{
+        font-size: 12px;
+        text-decoration: line-through;
+        font-weight: lighter;
+        color: gray;
+    }
+
+    .text-dicsount{
+        font-size: 12px;
+        color: gray;
+    }
+
+    .sale-now.flash-title{
+        font-size: 14px;
+    }
+
+   
+    .sale-now{
+        color: #F37323;
+    }
+
+    .buy-now{
+        text-decoration: none;
+        width: 200px;
+        border: 1px solid #F37323;
+        padding: 5px;
+        text-align: center;
+        align-items: center;
+        font-weight: 200;
+        color: #F37323;
+        float: right;
+    }
+
+  
+    .item-timer{
+        background-color: #DA2919;
+        color: #ffffff;
+        font-size: 16px;
+        font-family: "Poppins" sans-serif;
+        margin: 8px;
+        border-radius: 4px;
+        margin-left: 2px;
+        align-self: center;
+        padding: 10px;
+    }
+
+    .name-product{
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .product{
+        font-size: 14px;
+        font-weight: 250;
+        line-height: 30px;
+    }
+
+
+    .text-title{
+        font-size: 18px;
+    }
+    .wrapper-koleksi {
+        width: 100%;
+        display: flex;
+        background: #ffffff;
+        border: 1px solid #ddd;
+    }
+    .content-koleksi{
+        width: 260px;
+        border: 1px solid #ddd;
+        margin: 5px;
+        border-left: none;
+        border-bottom: none;
+        border-top: none;
+    }
