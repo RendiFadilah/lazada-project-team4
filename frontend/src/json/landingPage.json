@@ -75,7 +75,6 @@
     "koleksiTerbaik" : [
       {
         "id": "assds123",
-<<<<<<< HEAD
         "name": "kuasMakeupFavorit",
         "stock": "165",
         "imageUrl1": "/images/img-kuas.webp",
@@ -157,69 +156,3 @@
           "type": "nama yg tulisannya light"
         }    ]
   }
-=======
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      },
-      {
-        "id": "assds123",
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      },
-      {
-        "id": "assds123",
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      },
-      {
-        "id": "assds123",
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      },
-      {
-        "id": "assds123",
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      },
-      {
-        "id": "assds123",
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      },
-      {
-        "id": "assds123",
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      },
-      {
-        "id": "assds123",
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      }
-    ]
-  }
->>>>>>> 85ad77441c4b55efc88b188af05d0cfafa0e255f
