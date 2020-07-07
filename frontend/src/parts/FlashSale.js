@@ -1,8 +1,11 @@
-import React from "react";
+import React, {} from "react";
 import Timer from "react-compound-timer";
 import { Link } from "react-router-dom";
+import Button from "../elements/Button/index"
+// import Axios from "axios";
 
 export default function FlashSale({ data, props }) {
+
   return (
    
     <section className="container mt-4">
@@ -52,8 +55,10 @@ export default function FlashSale({ data, props }) {
       {data.map((item,index)=>{
           return(
         <div key={index} className="col-md-2">
+          <Button className="text-decoration-none text-dark" type="link" href={`/detailitem/${item._id}`}>
           <div className="card-group"  style={{width: "100%"}}>
             <div className="card border-0">
+
               <img src={item.imageUrl} className="card-img-top" alt="..." />
               <div className="card-body">
                   <div className="card-item-title">
@@ -75,6 +80,7 @@ export default function FlashSale({ data, props }) {
               </div>
             </div>
           </div>
+          </Button>
         </div>
           )
           })}
