@@ -1,176 +1,39 @@
-import React from 'react'
-import KoleksiTerbaik1 from "../assets/images/img-koleksiterbaik.webp";
-import KoleksiTerbaik2 from "../assets/images/img-koleksiterbaik2.webp";
-import KoleksiTerbaik3 from "../assets/images/img-koleksiterbaik3.webp";
+import React from "react";
 
-export default function KoleksiTerbaik() {
-    return (
-        <section className="container">
-            <div className="content-text d-flex align-items-center">
-                <h4 className="mb-3 mt-4 text-title">Koleksi Terbaik</h4>
-                <h5 className="mb-3 mt-4 ml-auto">Lanjutkan Belanja</h5>
-            </div>
-            <div className="row">
-                <div className="wrapper-koleksi">
-                <div className="col">
-                    <div className="content-koleksi">
 
-                    <div className="text-center">
-                        <span className="name-product">
-                            Woven Outfits <br></br>
-                        </span>
-                        <span className="product">
-                            1,305 Produk
-                        </span>
-                    </div>
+export default function KoleksiTerbaik({ data, props }) {
+  return (
+    <div className="container mt-5">
+      <div className="text-titlle d-flex align-items-center mt-3">
+        <h4>Koleksi Terbaik</h4>
+        <span className="ml-auto">Lanjutkan Belanja</span>
+      </div>
 
-                    <div className="img-kolekterbaik p-1">
-                        <img src={KoleksiTerbaik1}  alt="" className=""/>
-                        <img src={KoleksiTerbaik2}  alt="" className=""/>
-                        <img src={KoleksiTerbaik3}  alt="" className=""/>
-                    </div>
-                    </div>
+      <div className="wrapper-koleksi-terbaik bg-white m-2 p-3">
+        <div className="row row-cols-4">
+          {data.map((item, index) => {
+            return (
+                <>
+              <div className="col mt-4 border-right">
+                  <div className="text-center">
+                    <span class="text-center">{item.name}</span>{" "}
+                    <br></br>
+                    <span class="text-center align-items-center font-smaller">
+                      {item.stock}
+                    </span>
+                  </div>
+
+                  <div className="img-wrapper">
+                    <img src={item.imageUrl1} alt="" />
+                    <img src={item.imageUrl2} alt="" />
+                    <img src={item.imageUrl3} alt="" />
+                  </div>
                 </div>
-                <div className="col-md-3">
-                    <div className="content-koleksi">
-
-                    <div className="text-center">
-                        <span className="name-product">
-                            Woven Outfits <br></br>
-                        </span>
-                        <span className="product">
-                            1,305 Produk
-                        </span>
-                    </div>
-
-                    <div className="img-kolekterbaik p-1">
-                        <img src={KoleksiTerbaik1}  alt="" className=""/>
-                        <img src={KoleksiTerbaik2}  alt="" className=""/>
-                        <img src={KoleksiTerbaik3}  alt="" className=""/>
-                    </div>
-                    </div>
-                </div>
-                <div className="col-md-3">
-                    <div className="content-koleksi">
-
-                    <div className="text-center">
-                        <span className="name-product">
-                            Woven Outfits <br></br>
-                        </span>
-                        <span className="product">
-                            1,305 Produk
-                        </span>
-                    </div>
-
-                    <div className="img-kolekterbaik p-1">
-                        <img src={KoleksiTerbaik1}  alt="" className=""/>
-                        <img src={KoleksiTerbaik2}  alt="" className=""/>
-                        <img src={KoleksiTerbaik3}  alt="" className=""/>
-                    </div>
-                    </div>
-                </div>
-                <div className="col-md-3">
-                    <div className="content-koleksi">
-
-                    <div className="text-center">
-                        <span className="name-product">
-                            Woven Outfits <br></br>
-                        </span>
-                        <span className="product">
-                            1,305 Produk
-                        </span>
-                    </div>
-
-                    <div className="img-kolekterbaik p-1">
-                        <img src={KoleksiTerbaik1}  alt="" className=""/>
-                        <img src={KoleksiTerbaik2}  alt="" className=""/>
-                        <img src={KoleksiTerbaik3}  alt="" className=""/>
-                    </div>
-                    </div>
-                </div>
-            </div>
-                    </div>
-            <div className="row">
-                <div className="wrapper-koleksi">
-                <div className="col">
-                    <div className="content-koleksi">
-
-                    <div className="text-center">
-                        <span className="name-product">
-                            Woven Outfits <br></br>
-                        </span>
-                        <span className="product">
-                            1,305 Produk
-                        </span>
-                    </div>
-
-                    <div className="img-kolekterbaik p-1">
-                        <img src={KoleksiTerbaik1}  alt="" className=""/>
-                        <img src={KoleksiTerbaik2}  alt="" className=""/>
-                        <img src={KoleksiTerbaik3}  alt="" className=""/>
-                    </div>
-                    </div>
-                </div>
-                <div className="col-md-3">
-                    <div className="content-koleksi">
-
-                    <div className="text-center">
-                        <span className="name-product">
-                            Woven Outfits <br></br>
-                        </span>
-                        <span className="product">
-                            1,305 Produk
-                        </span>
-                    </div>
-
-                    <div className="img-kolekterbaik p-1">
-                        <img src={KoleksiTerbaik1}  alt="" className=""/>
-                        <img src={KoleksiTerbaik2}  alt="" className=""/>
-                        <img src={KoleksiTerbaik3}  alt="" className=""/>
-                    </div>
-                    </div>
-                </div>
-                <div className="col-md-3">
-                    <div className="content-koleksi">
-
-                    <div className="text-center">
-                        <span className="name-product">
-                            Woven Outfits <br></br>
-                        </span>
-                        <span className="product">
-                            1,305 Produk
-                        </span>
-                    </div>
-
-                    <div className="img-kolekterbaik p-1">
-                        <img src={KoleksiTerbaik1}  alt="" className=""/>
-                        <img src={KoleksiTerbaik2}  alt="" className=""/>
-                        <img src={KoleksiTerbaik3}  alt="" className=""/>
-                    </div>
-                    </div>
-                </div>
-                <div className="col-md-3">
-                    <div className="content-koleksi">
-
-                    <div className="text-center">
-                        <span className="name-product">
-                            Woven Outfits <br></br>
-                        </span>
-                        <span className="product">
-                            1,305 Produk
-                        </span>
-                    </div>
-
-                    <div className="img-kolekterbaik p-1">
-                        <img src={KoleksiTerbaik1}  alt="" className=""/>
-                        <img src={KoleksiTerbaik2}  alt="" className=""/>
-                        <img src={KoleksiTerbaik3}  alt="" className=""/>
-                    </div>
-                    </div>
-                </div>
-            </div>
-                    </div>
-
-        </section>
-    )
+              </>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+  );
 }

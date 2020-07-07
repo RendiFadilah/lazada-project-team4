@@ -7,6 +7,8 @@ import LandingPage from "./pages/LandingPage"
 
 import LoginPenjual from './pages/auth/login/LoginPenjual';
 import LandingApi from './api/LandingApi';
+
+
 function App() {
   return (
     <div className="App">
