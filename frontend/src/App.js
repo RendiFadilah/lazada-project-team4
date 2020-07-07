@@ -13,12 +13,12 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Route exact path="/" component={LandingPage}></Route>
+        <Route exatch path="/" component={LandingPage}></Route>
         <Route path="/login" component={LoginPenjual}></Route>
         <Route path="/api" component={LandingApi}></Route>
       </Router>
     </div>
   );
-}
 
+}
 export default App;
