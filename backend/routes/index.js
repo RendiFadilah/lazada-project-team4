@@ -11,5 +11,7 @@ const user = [
 router.get('/login', function(req, res, next) {
   res.sends(user)
 });
-
+router.post('/register', function(req, res, next){
+  res.sends()
+});
 module.exports = router;
