@@ -243,3 +243,31 @@ header{
     border-left: none;
     border-right: 1px solid #c4c4c4;
 }
+
+.wrapper-register{
+    width: 80%;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin: 50px auto;
+
+    .content-register{
+        padding: 10px;
+
+        hr{
+            width: 100%;
+        }
+    }
+
+    .content-top{
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        align-items: center;
+    }
+
+    label{
+        font-size: 14px;
+    }
+}

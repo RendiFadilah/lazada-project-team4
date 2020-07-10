@@ -1,40 +1,42 @@
 var express = require("express");
-var app = express();
-let crypto = require("crypto");
-let moment = require("moment");
-let conn = require("../config/db");
-let sha1 = require("sha1");
+var router = express.Router();
+var Users = require("../model/loginpenjual_model");
+let crypto = require("crypto")
+let secret = "rinoea";
+/* GET users listing. */
 
-app.post("/v1/api/lazada/login", async function (req, res, next) {
-	let now = moment().format("YYYY-MM-DD HH:mm:ss").toString();
-	let email = req.body.email;
-	let password = sha1(req.body.password);
-	let token = crypto.randomBytes(32).toString("hex");
-	let created_at = now;
-	let updated_at = now;
+router.get("/v1/api/lazada/login", function (req, res) {
+	res.send('Welcome')
+})
+router.post("/v1/api/lazada/login", function (req, res) {
+	const { body } = req;
 
-	let sql = `INSERT INTO users (email,password,remember_token,created_at,updated_at) values(?,?,?,?,?)`;
-	function data(success) {
-		conn.query(sql, [email, password, token, created_at, updated_at], function (
-			error
-		) {
-			if (error) {
-				if (error.code === "ER_DUP_ENTRY") {
-					res
-						.status(401)
-						.send({ message: `maaf email ${email} ini sudah digunakan` });
-				}
-				console.log(error);
-				if (error) throw console.log("Error when duplicate email", error);
-			}
+	const hash = crypto
+		.createHmac("sha256", secret)
+		.update(body.password)
+		.digest("hex");
 
-			return success({ email: email, token: token });
-		});
-	}
-	console.log(data);
-	res.json({
-		messgae: `Selamat email anda ${email}  telah terdaftar di lazada `,
+	Users.getData({ ...body, password: hash }, function (err, result, fields) {
+		if (err) throw err;
+		req.session.email = result.email;
+		req.session.password = result.password;
+		return res.send({ err, result, fields });
+		// req.session.save(() => res.redirect("/v1/api/lazada"));
 	});
 });
 
-module.exports = app;
+router.post("/v1/api/lazada/register", function (req, res) {
+	const { body } = req;
+
+	const hash = crypto
+		.createHmac("sha256", secret)
+		.update(body.password)
+		.digest("hex");
+
+	Users.create({ ...body, password: hash }, (err, result) => {
+		if (err) throw err;
+		res.send(result);
+	});
+});
+
+module.exports = router;

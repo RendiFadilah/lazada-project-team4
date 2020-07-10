@@ -1,4 +1,4 @@
-import React, {Component,useE} from 'react'
+import React, {Component} from 'react'
 import NavbarTop from "../parts/navbar/Navbar";
 import NavbarLazada from '../parts/navbar/NavbarLazada';
 import Hero from "../parts/Hero";
