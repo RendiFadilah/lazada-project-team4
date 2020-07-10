@@ -7,11 +7,18 @@
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
+<<<<<<< HEAD
+    "cors": "^2.8.5",
+=======
+    "crypto": "^1.0.1",
+>>>>>>> 6bf72a0bd04317c2552ff68270ee00eab64736f9
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "express": "^4.16.4",
     "http-errors": "~1.6.3",
+    "moment": "^2.27.0",
     "morgan": "~1.9.1",
+<<<<<<< HEAD
     "mysql": "^2.18.1",
     "nodemon": "^2.0.4"
   },
@@ -20,4 +27,14 @@
   "author": "",
   "license": "ISC",
   "description": ""
+=======
+<<<<<<< HEAD
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+=======
+    "nodemon": "^2.0.4",
+    "sha1": "^1.1.1"
+>>>>>>> 6bf72a0bd04317c2552ff68270ee00eab64736f9
+  }
+>>>>>>> d38f39e5294f2e5cf2b1278b6b9605a35ff8f1a8
 }
