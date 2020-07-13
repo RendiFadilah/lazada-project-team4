@@ -190,5 +190,211 @@
           "contentBrand": "Wear What You Feel"
         }
       
+      ],
+
+      "Category": [
+        {
+          "id": "category1",
+          "imageUrl": "/images/img-category1.webp",
+          "name": "Casing Handphone"
+        },
+        {
+          "id": "category12",
+          "imageUrl": "/images/img-category2.webp",
+          "name": "Handphone"
+        },
+        {
+          "id": "category123",
+          "imageUrl": "/images/img-category3.webp",
+          "name": "Sepatu Sneaker Pria"
+        },
+        {
+          "id": "category1234",
+          "imageUrl": "/images/img-category4.webp",
+          "name": "Baju Muslim & Jumpsuit"
+        },
+        {
+          "id": "category12345",
+          "imageUrl": "/images/img-category5.webp",
+          "name": "Perangkat Masak"
+        },
+        {
+          "id": "category123456",
+          "imageUrl": "/images/img-category6.webp",
+          "name": "Kabel Home Audio"
+        },
+        {
+          "id": "category1234567",
+          "imageUrl": "/images/img-category7.webp",
+          "name": "Hijab"
+        },
+        {
+          "id": "category12345678",
+          "imageUrl": "/images/img-category8.webp",
+          "name": "T-Shirt Pria"
+        },
+        {
+          "id": "category12345678",
+          "imageUrl": "/images/img-category8.webp",
+          "name": "T-Shirt Pria"
+        },
+        {
+          "id": "category12345678",
+          "imageUrl": "/images/img-category8.webp",
+          "name": "T-Shirt Pria"
+        },
+        {
+          "id": "category12345678",
+          "imageUrl": "/images/img-category8.webp",
+          "name": "T-Shirt Pria"
+        },
+        {
+          "id": "category12345678",
+          "imageUrl": "/images/img-category8.webp",
+          "name": "T-Shirt Pria"
+        },
+        {
+          "id": "category12345678",
+          "imageUrl": "/images/img-category8.webp",
+          "name": "T-Shirt Pria"
+        },
+        {
+          "id": "category12345678",
+          "imageUrl": "/images/img-category8.webp",
+          "name": "T-Shirt Pria"
+        },
+        {
+          "id": "category12345678",
+          "imageUrl": "/images/img-category8.webp",
+          "name": "T-Shirt Pria"
+        },
+        {
+          "id": "category12345678",
+          "imageUrl": "/images/img-category8.webp",
+          "name": "T-Shirt Pria"
+        }
+      ],
+
+      "HanyaUntukMu": [
+        {
+          "id": "hanyauntukmu1",
+          "imageUrl": "/images/img-hanyauntukmu1.webp",
+          "name": "INBEX Headphone Splitter/Male to 2 Female",
+          "price": "Rp 19.900",
+          "sale": "Rp 70.000",
+          "discount": "72%",
+          "rating": "/images/ic_star.png",
+          "stock": "73"
+        },
+        {
+          "id": "hanyauntukmu2",
+          "imageUrl": "/images/img-hanyauntukmu2.webp",
+          "name": "(BISA COD) PALING MURAH! Rok Plikset Premium",
+          "price": "Rp 15.900",
+          "sale": "Rp 45.000",
+          "discount": "-65%",
+          "rating": "/images/ic_star.png",
+          "stock": "969"
+        },
+        {
+          "id": "hanyauntukmu2",
+          "imageUrl": "/images/img-hanyauntukmu2.webp",
+          "name": "(BISA COD) PALING MURAH! Rok Plikset Premium",
+          "price": "Rp 15.900",
+          "sale": "Rp 45.000",
+          "discount": "-65%",
+          "rating": "/images/ic_star.png",
+          "stock": "969"
+        },
+        {
+          "id": "hanyauntukmu2",
+          "imageUrl": "/images/img-hanyauntukmu2.webp",
+          "name": "(BISA COD) PALING MURAH! Rok Plikset Premium",
+          "price": "Rp 15.900",
+          "sale": "Rp 45.000",
+          "discount": "-65%",
+          "rating": "/images/ic_star.png",
+          "stock": "969"
+        },
+        {
+          "id": "hanyauntukmu2",
+          "imageUrl": "/images/img-hanyauntukmu2.webp",
+          "name": "(BISA COD) PALING MURAH! Rok Plikset Premium",
+          "price": "Rp 15.900",
+          "sale": "Rp 45.000",
+          "discount": "-65%",
+          "rating": "/images/ic_star.png",
+          "stock": "969"
+        },
+        {
+          "id": "hanyauntukmu2",
+          "imageUrl": "/images/img-hanyauntukmu2.webp",
+          "name": "(BISA COD) PALING MURAH! Rok Plikset Premium",
+          "price": "Rp 15.900",
+          "sale": "Rp 45.000",
+          "discount": "-65%",
+          "rating": "/images/ic_star.png",
+          "stock": "969"
+        },
+        {
+          "id": "hanyauntukmu2",
+          "imageUrl": "/images/img-hanyauntukmu2.webp",
+          "name": "(BISA COD) PALING MURAH! Rok Plikset Premium",
+          "price": "Rp 15.900",
+          "sale": "Rp 45.000",
+          "discount": "-65%",
+          "rating": "/images/ic_star.png",
+          "stock": "969"
+        },
+        {
+          "id": "hanyauntukmu2",
+          "imageUrl": "/images/img-hanyauntukmu2.webp",
+          "name": "(BISA COD) PALING MURAH! Rok Plikset Premium",
+          "price": "Rp 15.900",
+          "sale": "Rp 45.000",
+          "discount": "-65%",
+          "rating": "/images/ic_star.png",
+          "stock": "969"
+        },
+        {
+          "id": "hanyauntukmu2",
+          "imageUrl": "/images/img-hanyauntukmu2.webp",
+          "name": "(BISA COD) PALING MURAH! Rok Plikset Premium",
+          "price": "Rp 15.900",
+          "sale": "Rp 45.000",
+          "discount": "-65%",
+          "rating": "/images/ic_star.png",
+          "stock": "969"
+        },
+        {
+          "id": "hanyauntukmu2",
+          "imageUrl": "/images/img-hanyauntukmu2.webp",
+          "name": "(BISA COD) PALING MURAH! Rok Plikset Premium",
+          "price": "Rp 15.900",
+          "sale": "Rp 45.000",
+          "discount": "-65%",
+          "rating": "/images/ic_star.png",
+          "stock": "969"
+        },
+        {
+          "id": "hanyauntukmu2",
+          "imageUrl": "/images/img-hanyauntukmu2.webp",
+          "name": "(BISA COD) PALING MURAH! Rok Plikset Premium",
+          "price": "Rp 15.900",
+          "sale": "Rp 45.000",
+          "discount": "-65%",
+          "rating": "/images/ic_star.png",
+          "stock": "969"
+        },
+        {
+          "id": "hanyauntukmu2",
+          "imageUrl": "/images/img-hanyauntukmu2.webp",
+          "name": "(BISA COD) PALING MURAH! Rok Plikset Premium",
+          "price": "Rp 15.900",
+          "sale": "Rp 45.000",
+          "discount": "-65%",
+          "rating": "/images/ic_star.png",
+          "stock": "969"
+        }
       ]
   }

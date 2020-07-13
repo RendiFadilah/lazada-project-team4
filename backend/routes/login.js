@@ -2,7 +2,7 @@ var express = require("express");
 var router = express.Router();
 var Users = require("../model/loginpenjual_model");
 let crypto = require("crypto")
-let secret = "rinoea";
+let secret = "lazada";
 /* GET users listing. */
 
 router.get("/v1/api/lazada/login", function (req, res) {
@@ -13,7 +13,7 @@ router.post("/v1/api/lazada/login", function (req, res) {
 
 	const hash = crypto
 		.createHmac("sha256", secret)
-		.update(body.password)
+		.update(body.paword)
 		.digest("hex");
 
 	Users.getData({ ...body, password: hash }, function (err, result, fields) {

@@ -19,12 +19,6 @@ route.get('/v1/api/lazada', function(req, res, next) {
   });
 
 });
-<<<<<<< HEAD
-router.post('/register', function(req, res, next){
-  res.sends()
-});
-module.exports = router;
-=======
 
 
 route.post('/v1/api/lazada', function(req, res, next) { 
@@ -35,4 +29,4 @@ route.post('/v1/api/lazada', function(req, res, next) {
 })
 
 module.exports = route;
->>>>>>> d38f39e5294f2e5cf2b1278b6b9605a35ff8f1a8
+

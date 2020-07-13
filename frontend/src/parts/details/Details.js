@@ -1,5 +1,12 @@
 import React from "react";
 import Button from "../../elements/Button/index";
+import Gambar from "../../assets/images/img-hanyauntukmu1.webp";
+import Rating from "../../assets/images/ic_star.png";
+import IconLokasi from "../../assets/images/location.png";
+import IconPengiriman from "../../assets/images/send.png";
+import IconPembayaran from "../../assets/images/purchase.png";
+import IconVerified from "../../assets/images/ic_verified.png"
+import IconBlock from "../../assets/images/block.png"
 
 export default function Details() {
   return (
@@ -49,14 +56,293 @@ export default function Details() {
         </div>
       </div>
 
-      <section className="container bg-white">
+      <section className="container bg-white" style={{ height: "800px" }}>
         <div className="wrapper-details">
           <div className="row">
-            <div className="col">
-              
+            <div className="col-4 p-3">
+              <img src={Gambar} style={{ width: 350 }} alt="" />
             </div>
-            <div className="col-5">A</div>
-            <div className="col">A</div>
+            <div className="col-5 p-3">
+              <span
+                style={{ fontFamily: "", fontWeight: "bold", fontSize: 16 }}
+              >
+                INBEX Headphone Splitter/Male to 2 <br></br> Female /3.5mm
+                Headphone Audio Splitter/ for <br></br> headset PC Adapter
+              </span>
+
+              <div className="rating mt-3">
+                <img src={Rating} style={{ width: 70 }} alt="" />
+                <Button
+                  type="link"
+                  className="ml-2"
+                  style={{ fontSize: 12, color: "#3595BE" }}
+                >
+                  82 Penilaian
+                </Button>
+
+                <span style={{ color: "#B4B4B4" }}> | </span>
+
+                <Button
+                  type="link"
+                  className=""
+                  style={{ fontSize: 12, color: "#3595BE" }}
+                >
+                  10 Pertanyaan yang dijawab
+                </Button>
+              </div>
+
+              <div className="brand mt-1">
+                <span
+                  style={{
+                    fontSize: 13,
+                    fontFamily: "Poppins, sans-serif",
+                    fontWeight: "lighter",
+                    color: "#C4C4C4",
+                  }}
+                >
+                  Merek:{" "}
+                  <Button type="link" style={{ color: "#3595BE" }}>
+                    INBEX
+                  </Button>
+                </span>
+
+                <span style={{ color: "#B4B4B4" }}> | </span>
+
+                <Button type="link" style={{ fontSize: 13, color: "#3595BE" }}>
+                  Lebih banyak Aksesoris Home Audio dari INBEX
+                </Button>
+              </div>
+
+              <hr style={{ wdith: 500 }}></hr>
+
+              <div className="price">
+                <span
+                  style={{
+                    fontSize: 28,
+                    fontWeight: "medium",
+                    color: "#F37323",
+                  }}
+                >
+                  Rp19.900
+                </span>
+                <div className="sale">
+                  <span
+                    style={{
+                      fontSize: 14,
+                      color: "#B6B6B6",
+                      textDecoration: "line-through",
+                    }}
+                  >
+                    Rp70.000
+                  </span>
+                  <span style={{ fontSize: 14 }} className="ml-1">
+                    -72%
+                  </span>
+                </div>
+              </div>
+
+              <div className="promotion mt-3">
+                <span style={{ fontSize: 14, color: "#878787" }}>Promosi</span>
+                <span
+                  className="ml-5"
+                  style={{
+                    fontSize: 14,
+                    width: 50,
+                    color: "#ffffff",
+                    padding: "3px",
+                    margin: 5,
+                    background: "#F57224",
+                  }}
+                >
+                  Beli 3, Diskon 4% ; Beli 5, Diskon 6%
+                </span>
+              </div>
+
+              <div className="quantity mt-4">
+                <span
+                  style={{ fontSize: 14, color: "#878787", marginTop: -50 }}
+                >
+                  Kuantitas
+                </span>
+                <span
+                  className="ml-5"
+                  style={{
+                    paddingRight: 15,
+                    paddingLeft: 15,
+                    paddingBottom: 5,
+                    alignItems: "center",
+                    fontSize: 28,
+                    background: "#FAFAFA",
+                  }}
+                >
+                  -
+                </span>
+
+                <input
+                  className="ml-2 border-0 align-self-center align-items-center"
+                  type="number"
+                  value="1"
+                  style={{ width: 40, textAlign: "center" }}
+                />
+                <span
+                  className="ml-2"
+                  style={{
+                    paddingRight: 15,
+                    paddingLeft: 15,
+                    paddingBottom: 5,
+                    alignItems: "center",
+                    fontSize: 28,
+                    background: "#FAFAFA",
+                  }}
+                >
+                  +
+                </span>
+              </div>
+
+              <div className="btn-buynow mt-3 d-flex">
+                <Button
+                  className="btn btn-custom"
+                  style={{
+                    width: 280,
+                    color: "#FFFFFF",
+                    background: "#FFB916",
+                    borderRadius: 2,
+                    padding: 10,
+                  }}
+                >
+                  Beli Sekarang
+                </Button>
+                <Button
+                  className="btn btn-custom ml-3"
+                  style={{
+                    width: 280,
+                    color: "#FFFFFF",
+                    background: "#F57224",
+                    borderRadius: 2,
+                    padding: 10,
+                  }}
+                >
+                  Tambah ke Troli
+                </Button>
+              </div>
+            </div>
+            <div className="col" style={{ background: "#FAFAFA", height: 700 }}>
+              <div className="wrapper-right mt-3">
+                <span
+                  style={{ fontSize: 12, color: "#878787", fontWeight: "bold" }}
+                >
+                  Pilihan Pengiriman
+                </span>
+
+                <div className="lokasi d-flex">
+                  <div className="image mt-1">
+                    <img src={IconLokasi} style={{ width: 20 }} alt="" />
+                  </div>
+                  <div
+                    className="wrapper-right align-self-center"
+                    style={{ lineHeight: 1 }}
+                  >
+                    <span
+                      className="ml-2"
+                      style={{
+                        fontSize: 12,
+                        fontWeight: "normal",
+                        textAlign: "justify",
+                      }}
+                    >
+                      DKI Jakarta, Kota Jakarta<br></br>
+                      <div className="ml-2">Barat, Cengkareng</div>
+                    </span>
+                  </div>
+                  <div className="change ml-auto mt-2">
+                    <Button
+                      type="link"
+                      style={{
+                        fontSize: 14,
+                        color: "#3595BE",
+                        textDecoration: "none",
+                      }}
+                    >
+                      UBAH
+                    </Button>
+                  </div>
+                </div>
+
+                <hr></hr>
+
+                <div className="delivery">
+                  <img src={IconPengiriman} style={{ width: 20 }} alt="" />
+                  <span className="ml-2" style={{ fontSize: 12 }}>
+                    Standar
+                  </span>
+                  <div className="" style={{ lineHeight: 1 }}>
+                    <span
+                      style={{ fontSize: 12, marginLeft: 30, color: "#878787" }}
+                    >
+                      3 - 8 hari
+                    </span>
+                    <span
+                      style={{
+                        marginLeft: 110,
+                        fontWeight: "normal",
+                        fontSize: 14,
+                      }}
+                    >
+                      Rp 6.100
+                    </span>
+                  </div>
+
+                  <div
+                    className="box shadow-sm p-2 mt-3 ml-4"
+                    style={{
+                      width: 230,
+                      border: "none",
+                      borderRadius: 3,
+                      background: "#ffffff",
+                      lineHeight: 1,
+                    }}
+                  >
+                    <span style={{ fontSize: 12 }}>
+                      Nikmati promosi gratis ongkir dengan<br></br>
+                      minimal belanja 3 item
+                    </span>
+                  </div>
+                </div>
+                <div className="pay mt-4">
+                  <img src={IconPembayaran} style={{ width: 25 }} alt="" />
+                  <span style={{ fontSize: 14 }} className="ml-2">
+                    Bayar ditempat berlaku
+                  </span>
+                </div>
+                <hr />
+                  <div className="garansi mt-3">
+                  <span
+                  style={{ fontSize: 12, color: "#878787", fontWeight: "bold" }}
+                >
+                  Pengembalian & Garansi
+                </span>
+
+                    <div className="content">
+                      <div className="content-1">
+                        <img src={IconVerified} style={{width: 25}} alt=""/>
+                        <span className="ml-2" style={{fontSize: 14}}>100% Original</span>
+                      </div>
+                      <div className="content-2 mt-3" style={{lineHeight: 1}}>
+                        <img src={IconVerified} style={{width: 25}} alt=""/>
+                        <span className="ml-2" style={{fontSize: 14}}>7 hari pengembalian barang</span>
+                        <div className="" style={{fontSize: 12, color: "#878787", marginLeft: 33}}>Berubah pikiran tidak diperbolehkan</div>
+                      </div>
+                      <div className="content-3 mt-3">
+                        <img src={IconBlock} style={{width: 25}} alt=""/>
+                        <span className="ml-2" style={{fontSize: 14}}>Tidak ada garansi</span>
+                      </div>
+
+                      <hr/> 
+                    </div>
+                  </div>      
+
+              </div>
+            </div>
           </div>
         </div>
       </section>

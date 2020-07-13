@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var createError = require("http-errors");
 var express = require("express");
 var path = require("path");
@@ -12,17 +11,6 @@ var usersRouter = require("./routes/login");
 // var landingRouter = require("./routes/landingpage");
 // var sellerProductRouter = require("./routes/sellerproducts");
 
-=======
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
-var cors = require('cors')
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-const registerRouter = require('./routes/register');
->>>>>>> 58141ea052387b6a47ec9876f6603aaf780f6c82
 var app = express();
 
 // view engine setup
@@ -45,14 +33,8 @@ app.use(
 	})
 );
 
-<<<<<<< HEAD
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "public")));
-=======
-app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use('/register', registerRouter);
->>>>>>> 58141ea052387b6a47ec9876f6603aaf780f6c82
 
 const User = require("./model/loginpenjual_model");
 
@@ -77,15 +59,9 @@ app.use("/", indexRouter);
 app.use("/", usersRouter);
 // app.use("/posts", auth, postsRouter);
 // catch 404 and forward to error handler
-<<<<<<< HEAD
 app.use(function (req, res, next) {
 	next(createError(404));
 });
-=======
-// app.use(function(req, res, next) {
-//   next(createError(404));
-// });
->>>>>>> 58141ea052387b6a47ec9876f6603aaf780f6c82
 
 // error handler
 app.use(function (err, req, res, next) {
@@ -97,12 +73,5 @@ app.use(function (err, req, res, next) {
 	res.status(err.status || 500);
 	res.render("error");
 });
-<<<<<<< HEAD
 
 module.exports = app;
-=======
-app.listen(4000, ()=>{
-  console.log("server running on port 4000")
-})
-module.exports = app;
->>>>>>> 58141ea052387b6a47ec9876f6603aaf780f6c82

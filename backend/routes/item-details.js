@@ -1,5 +1,5 @@
 const express = require("express");
-const app = express();
+const app = express.Router();
 const ItemDetails = require("../model/detail_model")
 
 app.get("v1/api/lazada/detailproducts/:id", (req, res) => {
