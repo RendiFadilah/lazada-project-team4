@@ -5,6 +5,7 @@ import Hero from "../parts/Hero";
 import FlashSale from "../parts/FlashSale"
 import KoleksiTerbaik from "../parts/KoleksiTerbaik"
 import DataLanding from '../json/landingPage.json';
+import Footer from "../parts/footer/Footer";
 
 export default class LandingPage extends Component {
     render(){
@@ -15,6 +16,7 @@ export default class LandingPage extends Component {
                 <Hero data={DataLanding.lazadaFeatured}  {...this.props}></Hero>
                 <FlashSale data={DataLanding.flashSale} {...this.props}></FlashSale>
                 <KoleksiTerbaik data={DataLanding.KoleksiTerbaik} {... this.props}></KoleksiTerbaik>
+                <Footer {...this.props}></Footer>
             </>
         );
     }

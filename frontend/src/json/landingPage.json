@@ -75,89 +75,7 @@
     "koleksiTerbaik" : [
       {
         "id": "assds123",
-<<<<<<< HEAD
-        "name": "kuasMakeupFavorit",
-        "stock": "165",
-        "imageUrl1": "/images/img-kuas.webp",
-        "imageUrl2": "/images/img-ayeshadowPurbasari.webp",
-        "imageUrl3": "/images/img-ayeshadowCoklat.webp"  
-      },
-      {
-      
-        "id": "assds1234",
-        "name": "makeupTerlaris",
-        "stock": "80",
-        "imageUrl1": "/images/img-bodylotion.webp",
-        "imageUrl2": "/images/img-toner.webp",
-        "imageUrl3": "/images/img-blushon.webp"
-      },
-      {
-      
-        "id": "assds12345",
-        "name": "heartBeating",
-        "stock": "97",
-        "imageUrl1": "/images/img-beating1.webp",
-        "imageUrl2": "/images/img-beating2.webp",
-        "imageUrl3": "/images/img-beating3.jpeg"
-      },
-      {
-      
-        "id": "assds123456",
-        "name": "hpDibawah3jt",
-        "stock": "1,979",
-        "imageUrl1": "/images/img-xiomi.webp",
-        "imageUrl2": "/images/img-hpJdul.webp",
-        "imageUrl3": "/images/img-vivo.webp"
-      },
-      {
-      
-        "id": "assds1234567",
-        "name": "mouse&keyboard",
-        "stock": "727",
-        "imageUrl1": "/images/img-mouse1.webp",
-        "imageUrl2": "/images/img-keyboard.jpeg",
-        "imageUrl3": "/images/img-mouse2.webp"
-        },
-        {
-      
-          "id": "assds12345678",
-          "name": "dekorRumahCantik",
-          "stock": "5,655",
-          "imageUrl1": "/images/img-dekor1.webp",
-          "imageUrl2": "/images/img-dekor2.webp",
-          "imageUrl3": "/images/img-dekor3.jpeg"
-        },
-        {
-      
-          "id": "assds123456789",
-          "name": "siselaluTampilKece",
-          "stock": "240",
-          "imageUrl1": "/images/img-kece1.webp",
-          "imageUrl2": "/images/img-kece2.jpeg",
-          "imageUrl3": "/images/img-kece3.jpeg"
-        },
-        {
-      
-          "id": "assds12345678910",
-          "name": "perabotDapurRumah",
-          "stock": "517",
-          "imageUrl1": "/images/img-perabot1.webp",
-          "imageUrl2": "/images/img-perabot2.webp",
-          "imageUrl3": "/images/img-perabot3.webp"
-        }
-      ],
 
-      "lazMall" : [
-        {
-
-          "id": "asdad1",
-          "name": "namaproduknya",
-          "imageUrl": "gambar atas",
-          "logoBrand": "gambar yg kecil",
-          "type": "nama yg tulisannya light"
-        }    ]
-  }
-=======
         "name": "caca",
         "stock": "97",
         "imageUrl1": "/images/img-koleksiterbaik.webp",
@@ -222,4 +140,4 @@
       }
     ]
   }
->>>>>>> 85ad77441c4b55efc88b188af05d0cfafa0e255f
+
