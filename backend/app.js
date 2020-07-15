@@ -6,6 +6,7 @@ var session = require("express-session");
 var logger = require("morgan");
 var cors = require("cors");
 var indexRouter = require("./routes/landingpage");
+var detailRouter = require("./routes/itemdetail")
 var usersRouter = require("./routes/login");
 // var itemRouter = require("./routes/itemdetails");
 // var landingRouter = require("./routes/landingpage");
@@ -53,6 +54,7 @@ const auth = function (req, res, next) {
 };
 
 app.use("/", indexRouter);
+app.use("/detail", indexRouter);
 // app.use("/sellers", sellerProductRouter);
 // app.use("/", landingRouter);
 // app.use("/", itemRouter);

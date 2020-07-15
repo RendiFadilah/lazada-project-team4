@@ -9,7 +9,7 @@ export default function FlashSale({ props }) {
   const [flashSale, setFlashSale] = useState([]);
 
   const fetchFlashSale = () => {
-    Axios.get("http://localhost:3001/v1/api/lazada").then((response) => {
+    Axios.get("http://localhost:3000/v1/api/lazada").then((response) => {
       console.log(response);
       setFlashSale(response.data);
     });

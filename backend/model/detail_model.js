@@ -12,14 +12,14 @@ const findItemDetails = (id , callback) => {
 
 const ItemDetails = ( post, callback) => {
     db.query({
-        sql: "INSERT INTO details_products SET ?",
+        sql: "INSERT INTO detail_products SET ?",
         values: {
             name: post.name,
             rating: post.rating,
             brand: post.brand,
             price: post.price,
             price_sale: post.price_sale,
-            discount: post.discount,
+            discount: post.discount,    
             color: post.color,
             size: post.size
         }
