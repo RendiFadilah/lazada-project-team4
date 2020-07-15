@@ -75,6 +75,74 @@
     "koleksiTerbaik" : [
       {
         "id": "assds123",
+<<<<<<< HEAD
+
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      },
+      {
+        "id": "assds123",
+        "name": "caca",
+        "stock": "97",
+        "imageUrl1": "/images/img-koleksiterbaik.webp",
+        "imageUrl2": "/images/img-koleksiterbaik2.webp",
+        "imageUrl3": "/images/img-koleksiterbaik3.webp"
+      }
+    ]
+  }
+
+=======
         "name": "kuasMakeupFavorit",
         "stock": "165",
         "imageUrl1": "/images/img-kuas.webp",
@@ -398,3 +466,4 @@
         }
       ]
   }
+>>>>>>> d84bc7e95729f9f13346a709136ff23ab1d41d7a
