@@ -29,7 +29,7 @@ export default function Navbar() {
                                     </Button>
                             </li>
                             <li className={`nav-item$`}>
-                                    <Button className="nav-link" type="link" href="">
+                                    <Button className="nav-link" type="link" href="login-pembeli">
                                         LOGIN
                                     </Button>
                             </li>

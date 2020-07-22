@@ -18,6 +18,7 @@
 @import "tables";
 @import "forms";
 @import "buttons";
+@import "login-pembeli";
 @import "transitions";
 @import "dropdown";
 @import "button-group";
@@ -45,7 +46,7 @@
 @import "print";
 
 body{
-    background-color: #ddd;
+    background-color: #dddddd;
 }
 header{
     
@@ -171,7 +172,7 @@ header{
 }
 
 
-.card-item-title{
+.card-item-title .card-title{
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -238,32 +239,36 @@ header{
         padding: 10px;
     }
 
-    .name-product{
-        font-size: 16px;
-        font-weight: normal;
+
+.wrapper-border{
+    border-left: none;
+    border-right: 1px solid #c4c4c4;
+}
+
+.wrapper-register{
+    width: 80%;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin: 50px auto;
+
+    .content-register{
+        padding: 10px;
+
+        hr{
+            width: 100%;
+        }
     }
 
-    .product{
-        font-size: 14px;
-        font-weight: 250;
-        line-height: 30px;
-    }
-
-
-    .text-title{
-        font-size: 18px;
-    }
-    .wrapper-koleksi {
-        width: 100%;
+    .content-top{
+        margin: 20px;
         display: flex;
-        background: #ffffff;
-        border: 1px solid #ddd;
+        justify-content: space-between;
+        align-self: center;
+        align-items: center;
     }
-    .content-koleksi{
-        width: 260px;
-        border: 1px solid #ddd;
-        margin: 5px;
-        border-left: none;
-        border-bottom: none;
-        border-top: none;
+
+    label{
+        font-size: 14px;
     }
+}
