@@ -28,6 +28,7 @@ export default function Navbar() {
         </div>
       </div>
 
+<<<<<<< HEAD
       <a href="cart">
         <img
           src={IconCart}
@@ -45,4 +46,14 @@ export default function Navbar() {
       />
     </header>
   );
+=======
+            <img src={IconCart} alt="IconCart" className="icon-cart"style={{width: 30}} />
+            <img src={LazadaCredit} alt="Lazada Credit" className="icon-cart"style={{width: 200, height: 55}} />
+
+
+
+        </header>
+    
+    )
+>>>>>>> 75ce392eaf7daeb9a6594557f0339d5b84687a64
 }
