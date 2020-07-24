@@ -22,6 +22,8 @@ export default function Navbar() {
             <img src={IconCart} alt="IconCart" className="icon-cart"style={{width: 30}} />
             <img src={LazadaCredit} alt="Lazada Credit" className="icon-cart"style={{width: 200, height: 55}} />
 
+
+
         </header>
     
     )
