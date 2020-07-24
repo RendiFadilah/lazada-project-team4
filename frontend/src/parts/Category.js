@@ -10,7 +10,7 @@ export default function Category({ data, props }) {
             return (
               <div className="col">
                 <div className="wrapper-content-category p-2 border-right border-top">
-                  <img src={item.imageUrl} alt="{item.name}" />
+                  <img style={{ width: 100 }} src={item.imageUrl} alt="{item.name}" />
                   <h4
                     className="h5 mt-2"
                     style={{ fontSize: 14, fontWeight: "normal" }}
