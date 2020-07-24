@@ -1,22 +1,40 @@
 var express = require('express');
-var router = express.Router();
+var route = express.Router();
+var landingPage = require('../model/landingpage');
 
-<<<<<<< HEAD
-const user = [
-  {
-    "name": "caca",
-  }
-]
+
+
 
 /* GET home page. */
-router.get('/v1/api/lazada', function(req, res, next) {
-  res.send(user)
-=======
-
-/* GET home page. */
-router.get('/v1/api/lazada', function(req, res, next) {
-  res.send('Welcome')
->>>>>>> 85ad77441c4b55efc88b188af05d0cfafa0e255f
+route.get('/v1/api/lazada', function(req, res, next) {
+let body;
+if(!req.query.searchKey){
+body = {searchKey: ''};
+}else{
+body = req.query;
+}
+landingPage.AllDataLanding(body, function(err,result) {
+if(err) throw console.log('Error When routing landingpage',err)
+res.send(result)
 });
 
-module.exports = router;
+});
+
+
+route.post('/v1/api/lazada', function(req, res, next) {
+landingPage.insertDataLanding(req.body,(err, result) => {
+if(err) throw console.log('Error when routing landingpagge',err);
+res.send(result)
+})
+})
+
+route.put('/v1/api/lazada/:id', (req, res)=> {   
+    let paramsId = req.params.id;   
+    landingPage.updateProduct(req.body,paramsId,(err, result) => {     
+    if(err) throw console.log('Error when routing landingpagge',err);     
+    res.send(result)   
+})   
+})
+
+module.exports = route;
+

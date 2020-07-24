@@ -24,7 +24,7 @@
     "flashSale": [
       {
         "_id": "asd1293uasdads1",
-        "name": "!Baju Gamis Monalisa Evelyn -Gamis Syari-Gamis Busui-Gamis Panjang terlaris gamis wanita",
+        "name": "Baju Gamis Monalisa Evelyn -Gamis Syari-Gamis Busui-Gamis Panjang terlaris gamis wanita",
         "imageUrl": "/images/img-flashsale1.webp",
         "price": "Rp 119.250",
         "discount": "25%",
@@ -48,34 +48,33 @@
       },
       {
         "_id": "asd1293uasdads4",
-        "name": "Loreal Paris",
-        "imageUrl": "/images/img-flashsale4.jpg",
-        "price": "Rp 119.250",
-        "discount": "25%",
-        "sale": "Rp 159.000"
+        "name": "Lifebuoy Sabun Cuci Tangan Total 10 Refill 180 Ml",
+        "imageUrl": "/images/img-flashsale7.webp",
+        "price": "Rp 11.900",
+        "discount": "21%",
+        "sale": "Rp 15.000"
       },
       {
         "_id": "asd1293uasdads5",
-        "name": "Loreal Paris",
-        "imageUrl": "/images/img-flashsale5.webp",
-        "price": "Rp 119.250",
-        "discount": "25%",
-        "sale": "Rp 159.000"
+        "name": "Paket Hemat 3 Benih Sayur",
+        "imageUrl": "/images/img-flashsale8.webp",
+        "price": "Rp 8.900",
+        "discount": "56%",
+        "sale": "Rp 20.000"
       },
       {
         "_id": "asd1293uasdads6",
-        "name": "Loreal Paris",
-        "imageUrl": "/images/img-flashsale6.webp",
-        "price": "Rp 119.250",
-        "discount": "25%",
-        "sale": "Rp 159.000"
+        "name": "Pompa Ban Sepeda Motor Mobil Bola Model Tabung Meter",
+        "imageUrl": "/images/img-flashsale9.webp",
+        "price": "Rp 52.900",
+        "discount": "44%",
+        "sale": "Rp 95.000s"
       }
     ],
 
     "koleksiTerbaik" : [
       {
         "id": "assds123",
-<<<<<<< HEAD
         "name": "kuasMakeupFavorit",
         "stock": "165",
         "imageUrl1": "/images/img-kuas.webp",
@@ -151,75 +150,10 @@
         {
 
           "id": "asdad1",
-          "name": "namaproduknya",
-          "imageUrl": "gambar atas",
-          "logoBrand": "gambar yg kecil",
-          "type": "nama yg tulisannya light"
-        }    ]
-  }
-=======
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      },
-      {
-        "id": "assds123",
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      },
-      {
-        "id": "assds123",
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      },
-      {
-        "id": "assds123",
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      },
-      {
-        "id": "assds123",
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      },
-      {
-        "id": "assds123",
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      },
-      {
-        "id": "assds123",
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      },
-      {
-        "id": "assds123",
-        "name": "caca",
-        "stock": "97",
-        "imageUrl1": "/images/img-koleksiterbaik.webp",
-        "imageUrl2": "/images/img-koleksiterbaik2.webp",
-        "imageUrl3": "/images/img-koleksiterbaik3.webp"
-      }
+          "name": "BUNNY",
+          "imageUrl": "/images/img-lazmall1.webp",
+          "logoBrand": "/images/img-lazmall-type1.webp",
+          "type": "BUNNY"
+        }
     ]
   }
->>>>>>> 85ad77441c4b55efc88b188af05d0cfafa0e255f
